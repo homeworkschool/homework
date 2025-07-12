@@ -1,0 +1,11 @@
+# Database Configuration (ใช้ database เดียวกับ Vercel)
+DATABASE_URL="mysql://username:password@localhost:3306/homework_tracker"
+
+# JWT Secret (ใช้ secret เดียวกับ Vercel)
+JWT_SECRET="your-super-secret-jwt-key-here"
+
+# Line Messaging API Configuration
+LINE_CHANNEL_ACCESS_TOKEN="your-line-channel-access-token-here"
+
+# Server Port (Railway จะ set ให้อัตโนมัติ)
+PORT=3001 
